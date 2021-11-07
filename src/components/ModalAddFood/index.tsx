@@ -19,7 +19,7 @@ const ModalAddFood = ({
 }: ModalAddFoodProps): JSX.Element => {
   const formRef = useRef(null);
 
-  const handleSubmit = async (data: Food) => {
+  const handleSubmit = (data: Food) => {
     handleAddFood(data);
     setIsOpen();
   };
