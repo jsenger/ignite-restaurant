@@ -72,6 +72,7 @@ const Dashboard = (): JSX.Element => {
 
   const handleEditFood = (food: FoodInterface) => {
     setEditingFood(food);
+    setEditModalOpen(true);
   };
 
   return (
